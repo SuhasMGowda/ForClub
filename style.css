@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+.banner{
+    width: 100%;
+    height: 45vh;
+    background-image: linear-gradient(rgba(22, 21, 24, 0.75),rgba(38, 36, 44, 0.75)),url(Bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height: 70px;
+    cursor: pointer;
+    padding: 0 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.navbar ul li::after{
+    height: 3px;
+    width: 100%;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 13%;
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    margin: 30px auto;
+}
+.ins{
+    cursor: pointer;
+    padding: 10px 800px;
+}
+.body h5{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between;
+    padding: 0 500px;
+}
+.body h6{
+    width: 100%;
+    margin-top: 86px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between;
+    padding: 0 675px;
+}
+.body p{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    line-gap-override: 100px;
+    padding: 0 40px;
+}
+.polos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.polo h7{
+    padding: 6px;
+    text-align: center;
+}
+.polo button{
+    padding: 6px 30px;
+    border: none;
+    outline: none;
+    background-color: #7d8aff;
+    color:#fff;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.qwey h4{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between;
+    padding: 0 730px;
+}
